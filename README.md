@@ -1,11 +1,13 @@
 # Parametric Gauss Reconstruction (PGR)
-This repository contains the implementation of the ACMTOG 2022 paper:
+This repository contains the implementation of the paper:
 
-[Surface Reconstruction from Point Clouds without Normals by Parametrizing the Gauss Formula](https://dl.acm.org/doi/10.1145/3554730)
+[Surface Reconstruction from Point Clouds without Normals by Parametrizing the Gauss Formula ( (ACMTOG 2022)](https://dl.acm.org/doi/10.1145/3554730)
 
 [Siyou Lin](https://jsnln.github.io/) | Dong Xiao | [Zuoqiang Shi](https://shizqi.github.io/) | [Bin Wang](https://binwangthss.github.io/)
 
 ![](assets/pgr_teaser.png)
+
+*Parametric Gauss Reconstruction (PGR)* takes an unoriented point cloud as input and solves an equation where the normals are the unknowns. The equation is written with the Gauss formula from potential theory, which can be established using only the coordinates of surface point samples. Upon obtaining the solution, PGR further computes an implicit indicator field for extracting the mesh surface.   
 
 ## Instructions on Running the Program
 
@@ -153,3 +155,7 @@ where
 
 The meanings of other options should be straight-forward.
 
+## Related Research
+
+[Surface Reconstruction Based on the Modified Gauss Formula  (ACMTOG 2019)](https://doi.org/10.1145/3233984)
+Wenjia Lu, Zuoqiang Shi, Jian Sun,  Bin Wang
