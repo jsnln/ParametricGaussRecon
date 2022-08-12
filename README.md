@@ -1,7 +1,7 @@
 # Parametric Gauss Reconstruction (PGR)
 This repository contains the implementation of the ACMTOG 2022 paper [Surface Reconstruction from Point Clouds without Normals by Parametrizing the Gauss Formula](https://dl.acm.org/doi/10.1145/3554730).
 
-
+![](assets/pgr_teaser.png)
 
 ## Instructions on Running the Program
 
