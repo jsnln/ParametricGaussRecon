@@ -1,7 +1,7 @@
 # Parametric Gauss Reconstruction (PGR)
 This repository contains the implementation of the paper:
 
-[Surface Reconstruction from Point Clouds without Normals by Parametrizing the Gauss Formula ( (ACMTOG 2022)](https://dl.acm.org/doi/10.1145/3554730)
+[Surface Reconstruction from Point Clouds without Normals by Parametrizing the Gauss Formula (ACMTOG 2022)](https://dl.acm.org/doi/10.1145/3554730)
 
 [Siyou Lin](https://jsnln.github.io/) | Dong Xiao | [Zuoqiang Shi](https://shizqi.github.io/) | [Bin Wang](https://binwangthss.github.io/)
 
@@ -159,3 +159,4 @@ The meanings of other options should be straight-forward.
 
 [Surface Reconstruction Based on the Modified Gauss Formula  (ACMTOG 2019)](https://doi.org/10.1145/3233984)
 Wenjia Lu, Zuoqiang Shi, Jian Sun,  Bin Wang
+
