@@ -5,6 +5,8 @@ This repository contains the implementation of the paper:
 
 *[Siyou Lin](https://jsnln.github.io/), Dong Xiao, [Zuoqiang Shi](https://shizqi.github.io/), [Bin Wang](https://binwangthss.github.io/)*
 
+[Project page](https://jsnln.github.io/tog2022_pgr/index.html) | [Slides (SIGGRAPH 2023)](https://jsnln.github.io/tog2022_pgr/assets/pgr-pre.pdf)
+
 ![](assets/pgr_teaser.png)
 
 *Parametric Gauss Reconstruction (PGR)* takes an unoriented point cloud as input and solves an equation where the normals are the unknowns. The equation is written with the Gauss formula from potential theory, which can be established using only the coordinates of surface point samples. Upon obtaining the solution, PGR further computes an implicit indicator field for extracting the mesh surface.   
