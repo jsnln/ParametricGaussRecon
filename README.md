@@ -1,4 +1,14 @@
 # Parametric Gauss Reconstruction (PGR)
+
+## Update (2024/09/12): 
+
+- Check out our newest update to PGR here: [WNNC](https://github.com/jsnln/WNNC):
+  - Much lower complexity and higher efficiency: O(N^3) => O(NlogN) and can handle millions of points
+  - Much better normal accuracy
+  - PyTorch interfaces that are easy to use
+  - Unofficial implementations of [GaussRecon](https://dl.acm.org/doi/10.1145/3233984) as a by-product, faster and more noise-resilient to the mainstream [PoissonRecon](https://github.com/mkazhdan/PoissonRecon).
+
+
 This repository contains the implementation of the paper:
 
 [**Surface Reconstruction from Point Clouds without Normals by Parametrizing the Gauss Formula (ACMTOG 2022)**](https://dl.acm.org/doi/10.1145/3554730)
